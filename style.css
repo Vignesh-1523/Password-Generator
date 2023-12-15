@@ -6,8 +6,11 @@
 }
 body{
     background: linear-gradient(150deg, rgb(0, 0, 0) 40%, #046aad);
-    height: 69vh;
+    height: 100vh;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
@@ -47,7 +50,7 @@ h2 span{
 
 .display input{
     padding-left: 10px;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
     outline: none;
     color: #002339;
